@@ -101,8 +101,8 @@ function Hero() {
             Time That Matches Your Style
           </h1>
           <p className="mt-5 max-w-md text-base text-muted-foreground">
-            Prime Time Watches brings you clean, modern timepieces for men and women across
-            Pakistan — every watch priced between Rs. 2,000 and Rs. 10,000.
+            Prime Time Watches brings you clean, modern timepieces for men and women across Pakistan
+            — every watch priced between Rs. 2,000 and Rs. 10,000.
           </p>
           <a
             href="#featured"
@@ -319,7 +319,12 @@ function Footer() {
           <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Facebook">
             <Facebook className="size-5 text-muted-foreground transition-colors hover:text-foreground" />
           </a>
-          <a href="https://wa.me/923001234567" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+          <a
+            href="https://wa.me/923001234567"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="WhatsApp"
+          >
             <MessageCircle className="size-5 text-muted-foreground transition-colors hover:text-foreground" />
           </a>
         </div>
