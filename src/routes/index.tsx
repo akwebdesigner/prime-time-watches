@@ -43,7 +43,7 @@ function Header() {
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-4 md:h-16 md:px-6">
         <a href="#home" className="flex min-w-0 items-center gap-2">
           <img
-            src={logoAsset.url}
+            src={logoImg}
             alt="Prime Time Watches logo"
             width={140}
             height={56}
@@ -296,7 +296,7 @@ function Footer() {
     <footer className="border-t border-border bg-background">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-6 px-4 py-10 text-center md:px-6">
         <img
-          src={logoAsset.url}
+          src={logoImg}
           alt="Prime Time Watches logo"
           width={160}
           height={64}
