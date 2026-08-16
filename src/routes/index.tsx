@@ -4,7 +4,7 @@ import { Menu, X, Instagram, Facebook, MessageCircle, Watch as WatchIcon } from 
 import { toast } from "sonner";
 import { Toaster } from "@/components/ui/sonner";
 import { watches, categories } from "@/data/watches";
-import logoAsset from "@/assets/logo.png.asset.json";
+import logoImg from "@/assets/logo.png";
 import heroImg from "@/assets/hero.jpg";
 
 export const Route = createFileRoute("/")({
